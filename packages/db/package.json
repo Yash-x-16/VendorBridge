@@ -12,11 +12,12 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/mongoose": "^5.11.97",
+    "dotenv": "^17.4.2",
     "mongoose": "^9.6.3",
     "typescript": "^6.0.3"
-  } , 
-  "exports":{
-    "./db":"./src/db.ts" , 
-    "./User":"./src/models/userModel.ts"
+  },
+  "exports": {
+    "./db": "./src/db.ts",
+    "./User": "./src/models/userModel.ts"
   }
 }

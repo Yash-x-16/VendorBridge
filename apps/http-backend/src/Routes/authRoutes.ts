@@ -10,4 +10,4 @@ try {
     console.log("error in authRoutes") ; 
 }
 
-export  default authRoutes
+export  default authRoutes 
